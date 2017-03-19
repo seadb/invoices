@@ -22,7 +22,7 @@
 %                                                                          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ProvidesClass{invoice}
+\ProvidesClass{quote}
 
 \LoadClass[12pt]{article}
 
@@ -102,11 +102,11 @@
     \setlength\LTright{0pt}
     \begin{longtable}{@{\extracolsep{\fill}\hspace{\tabcolsep}} l r r r }
     \hline
-    {\bf Description of Services} & \multicolumn{1}{c}{\bf Quantity} & \multicolumn{1}{c}{\bf Unit Price} & \multicolumn{1}{c}{\bf Amount} \\*
+    {\bf Description of Services} & \multicolumn{1}{c}{\bf Quantity} & \multicolumn{1}{c}{\bf Hourly Rate} & \multicolumn{1}{c}{\bf Amount} \\*
     \hline\hline
     \endhead
 }{
     \hline\hline\hline
-    {\bf Balance Due} & & & {\bf \$\total{cost}} \\
+    {\bf Total} & & & {\bf \$\total{cost}} \\
     \end{longtable}
 }
