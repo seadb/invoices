@@ -1,6 +1,6 @@
-### LaTeX Invoice Class
+### LaTeX Quote Class
 
-The LaTeX class `invoice.cls` can be used to make tabular invoices that automatically total units and currency (only dollars are supported currently).
+The LaTeX class `quote.cls` can be used to make tabular quotes that automatically total units and currency (only dollars are supported currently).
 
 The class currently supports:
 
